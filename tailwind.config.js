@@ -8,6 +8,7 @@ export default {
       "gr-200": "hsl(171,58,28,65%)",
       "gr-300": "#1E7164",
       "gr-400": "#085352",
+      magnolia: "#F9F5FF",
     },
     screens: {
       sm: "480px",
