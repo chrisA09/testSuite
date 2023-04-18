@@ -70,3 +70,29 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* datails */
+body {
+  background-color: "#F9F5FF";
+}
+.card {
+  width: 98%;
+  display: flex;
+  align-items: center;
+
+  border-radius: 5px;
+  outline: solid 2px #1e7164;
+}
+.card p {
+  padding: 2rem;
+}
+.online path {
+  fill: #1e7164;
+}
+.international path {
+  fill: #1e7164;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
