@@ -96,3 +96,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.rotate {
+  transform: rotate(180deg);
+}
