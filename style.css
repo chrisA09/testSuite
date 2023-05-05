@@ -99,3 +99,28 @@ body {
 .rotate {
   transform: rotate(180deg);
 }
+.card-upwards {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 5px;
+}
+/* testing horizontal scrolling */
+.test {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+}
+.test > * {
+  grid-column: 2 / -2;
+}
+.test > .full {
+  grid-column: 1 / -1;
+}
+.hs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, calc(50% - 40px));
+  grid-template-rows: minmax(150px, 1fr);
+}
