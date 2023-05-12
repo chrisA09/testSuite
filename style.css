@@ -99,28 +99,28 @@ body {
 .rotate {
   transform: rotate(180deg);
 }
-.card-upwards {
-  width: 41%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
-  border-radius: 5px;
-}
 /* testing horizontal scrolling */
 .test {
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.test > * {
-  grid-column: 2 / -2;
+.scrolling-container {
+  display: flex;
+  padding: 25px 0px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
 }
-.test > .full {
-  grid-column: 1 / -1;
-}
-.hs {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(5, calc(50% - 40px));
-  grid-template-rows: minmax(150px, 1fr);
+.card-upwards {
+  /* width: 41%; */
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  /* align-items: center; */
+  padding: 20px;
+  border-radius: 5px;
+  scroll-snap-align: start;
+  transition: all 0.2s;
 }
