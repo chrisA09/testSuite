@@ -100,7 +100,7 @@ body {
   transform: rotate(180deg);
 }
 
-/* testing horizontal scrolling */
+/* ======== testing horizontal scrolling =========*/
 .test {
   max-width: 1440px;
   padding: 0 15px;
@@ -124,3 +124,24 @@ body {
   scroll-snap-align: start;
   transition: all 0.2s;
 }
+/* =========================== */
+/* =========================== */
+
+/* ========== TRIAL ============  */
+
+.tajertas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.tarjeta {
+  width: 300px;
+  outline: 1px solid black;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+/* ================================ */
+/* ================================ */
